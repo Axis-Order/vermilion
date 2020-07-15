@@ -50,7 +50,6 @@ def decode(text):
                     tmp = ''
                     continue
                 tmp += c
-                print(tmp)
                 counter += 1
         wf.write(wtext)
     return
